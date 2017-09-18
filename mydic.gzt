@@ -1,0 +1,26 @@
+encoding "utf8";               // указываем кодировку, в которой написан этот файл
+
+import "base.proto";           // подключаем описания protobuf-типов (TAuxDicArticle и прочих)
+import "articles_base.proto";  // Файлы base.proto и articles_base.proto встроены в компилятор.
+                               // Их необходимо включать в начало любого gzt-словаря.
+
+TAuxDicArticle "типы"
+{
+  key = { "types.txt" type=FILE }
+}
+
+TAuxDicArticle "компании"
+{
+  key = { "companies.txt" type=FILE }
+}
+
+TAuxDicArticle "принтеры"
+{
+    //key = "Kyocera FS-1020 MFP" | "HP Laser Jet Pro P1102" | "Samsung  ML 2010/2015/2510/2570" | "Canon MF 4410/4570" | "Samsung M 2020" // | "Samsung SCX-3400" | "HP LaserJet 1010/1018/1020/3020/3050" | "HP LaserJet 400/401/452" | "HP LaserJet 1320/3390/Р2015/P2014" | "Xerox Phaser 3140"
+    key = { "tomita:printers.cxx" type=CUSTOM }
+}
+
+TAuxDicArticle "количество"
+{
+    key = { "tomita:quantity.cxx" type=CUSTOM }
+}
