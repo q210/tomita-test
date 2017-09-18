@@ -1,0 +1,18 @@
+import "base.proto";           // описание protobuf-типов
+import "facttypes_base.proto"; // описание protobuf-типа NFactType.TFact
+
+message Printer: NFactType.TFact
+{
+    optional string Type = 1;
+    required string Company = 2;
+    required string Model = 3;
+}
+
+message Cartridge: NFactType.TFact
+{
+    optional string Type = 1;
+    optional string Company = 2;
+    optional string Model = 3;
+    optional string Quantity = 4;
+    optional string Resource = 5;
+}

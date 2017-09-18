@@ -1,0 +1,119 @@
+Ресурс картриджа стр не менее 2500 Наименование оборудования МФУ Kyocera FS-1020 MFP Количество шт 10 . 
+	Printer
+	{
+		Type = МФУ
+		Company = Kyocera
+		Model = FS-1020 MFP
+	}
+	Cartridge
+	{
+		Quantity = шт 10
+		Resource = ресурс картриджа стр не менее 2500
+	}
+Ресурс картриджа стр не менее 2300 Наименование оборудования Принтер HP Laser Jet Pro P1102 Количество шт 100 . 
+	Printer
+	{
+		Type = Принтер
+		Company = HP
+		Model = Laser Jet Pro P1102
+	}
+	Cartridge
+	{
+		Quantity = шт 100
+		Resource = ресурс картриджа стр не менее 2300
+	}
+Ресурс картриджа стр не менее 3000 Наименование оборудования Принтер Samsung ML 2010-2015-2510-2570 Количество шт 10 . 
+	Printer
+	{
+		Type = Принтер
+		Company = Samsung
+		Model = ML 2010-2015-2510-2570
+	}
+	Cartridge
+	{
+		Quantity = шт 10
+		Resource = ресурс картриджа стр не менее 3000
+	}
+Ресурс картриджа стр не менее 2100 Наименование оборудования Принтер Canon MF 4410-4570 Количество шт 50 . 
+	Printer
+	{
+		Type = Принтер
+		Company = Canon
+		Model = MF 4410-4570
+	}
+	Cartridge
+	{
+		Quantity = шт 50
+		Resource = ресурс картриджа стр не менее 2100
+	}
+Ресурс картриджа стр не менее 1800 Наименование оборудования Принтера Samsung M 2020 Количество шт 20 . 
+	Printer
+	{
+		Type = Принтер
+		Company = Samsung
+		Model = M 2020
+	}
+	Cartridge
+	{
+		Quantity = шт 20
+		Resource = ресурс картриджа стр не менее 1800
+	}
+Ресурс картриджа стр не менее 1500 Наименование оборудования Принтер Samsung SCX-3400 Количество шт 40 . 
+	Printer
+	{
+		Type = Принтер
+		Company = Samsung
+		Model = SCX-3400
+	}
+	Cartridge
+	{
+		Quantity = шт 40
+		Resource = ресурс картриджа стр не менее 1500
+	}
+Ресурс картриджа стр не менее 3500 Наименование оборудования Принтер HP LaserJet 1010-1018-1020-3020-3050 Количество шт 20 . 
+	Printer
+	{
+		Type = Принтер
+		Company = HP
+		Model = LaserJet 1010-1018-1020-3020-3050
+	}
+	Cartridge
+	{
+		Quantity = шт 20
+		Resource = ресурс картриджа стр не менее 3500
+	}
+Ресурс картриджа стр не менее 7000 Наименование оборудования Принтер HP LaserJet 400-401-452 Количество шт 20 . 
+	Printer
+	{
+		Type = Принтер
+		Company = HP
+		Model = LaserJet 400-401-452
+	}
+	Cartridge
+	{
+		Quantity = шт 20
+		Resource = ресурс картриджа стр не менее 7000
+	}
+Ресурс картриджа стр не менее 6900 Наименование оборудования Принтер HP LaserJet 1320-3390-Р2015-P2014 Количество шт 1 . 
+	Printer
+	{
+		Type = Принтер
+		Company = HP
+		Model = LaserJet
+	}
+	Cartridge
+	{
+		Quantity = шт 1
+		Resource = ресурс картриджа стр не менее 6900
+	}
+Ресурс картриджа стр не менее 2500 Наименование оборудования Xerox Phaser 3140 Количество шт 35 . 
+	Printer
+	{
+		Company = Xerox
+		Model = Phaser 3140
+	}
+	Cartridge
+	{
+		Quantity = шт 35
+		Resource = ресурс картриджа стр не менее 2500
+	}

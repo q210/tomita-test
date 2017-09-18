@@ -9,7 +9,18 @@ TTextMinerConfig {
   }
 
   Articles = [
-    { Name = "принтеры" };
-    { Name = "количество" }
+    { Name = "принтеры" }
+    { Name = "картриджи" }
   ]
+
+  Facts = [
+    { Name = "Printer" }
+    { Name = "Cartridge" }
+  ]
+
+  Output = {
+    File = "facts.txt";
+    Format = text;        // можно использовать следующие форматы:
+                          // proto (Google Protobuf), xml, text
+  }
 }
