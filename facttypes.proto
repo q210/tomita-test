@@ -3,16 +3,16 @@ import "facttypes_base.proto"; // описание protobuf-типа NFactType.T
 
 message Printer: NFactType.TFact
 {
-    optional string Type = 1;
+    optional string Type = 1 [ default = "Принтер" ];
     required string Company = 2;
     required string Model = 3;
 }
 
 message Cartridge: NFactType.TFact
 {
-    optional string Type = 1;
+    optional string Type = 1 [ default = "Картридж" ];
     optional string Company = 2;
     optional string Model = 3;
-    optional string Quantity = 4;
+    optional string Quantity = 4 [ default = "1" ];
     optional string Resource = 5;
 }
